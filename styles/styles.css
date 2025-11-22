@@ -42,6 +42,17 @@ header #home {
 header #home .textos-home {
   width: 464px;
 }
+header #home .textos-home button {
+  width: 280px;
+  height: 66px;
+  border-radius: 40px;
+  border: none;
+  background-color: #4e75ff;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
 header #home .textos-home h1 {
   font-size: 42px;
   color: #0c0421;

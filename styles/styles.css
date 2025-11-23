@@ -67,4 +67,9 @@ header #home .img-home {
 }
 header #home .img-home img {
   width: 100%;
+}
+
+#nosso-espaco {
+  width: 80%;
+  margin: 0 auto;
 }/*# sourceMappingURL=styles.css.map */

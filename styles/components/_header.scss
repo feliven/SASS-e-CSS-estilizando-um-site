@@ -1,4 +1,4 @@
-@use "./variables";
+@use "../abstract/variables";
 
 header {
   background: variables.$gradiente-primario;

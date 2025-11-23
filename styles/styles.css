@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
   padding: 2rem;
@@ -61,10 +67,4 @@ header #home .img-home {
 }
 header #home .img-home img {
   width: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }/*# sourceMappingURL=styles.css.map */

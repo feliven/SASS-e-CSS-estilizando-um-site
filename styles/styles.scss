@@ -1,72 +1,7 @@
-@use "./abstract/variables";
+@use "./abstract/header";
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-header {
-  background: variables.$gradiente-primario;
-  padding: 2rem;
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.6rem;
-    .linha {
-      border-top: 1px solid black;
-      width: 80%;
-    }
-    ul {
-      display: inline-flex;
-      gap: 2rem;
-      li {
-        list-style-type: none;
-      }
-      a {
-        text-decoration: none;
-        color: variables.$cor-primaria;
-        font-weight: 500;
-        font-family: variables.$ft-textos;
-      }
-    }
-  }
-  #home {
-    max-width: 1040px;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    .textos-home {
-      width: 464px;
-      button {
-        width: 280px;
-        height: 66px;
-        border-radius: 40px;
-        border: none;
-        background-color: variables.$cor-secundaria;
-        color: white;
-        font-family: variables.$ft-textos;
-        font-size: 22px;
-        font-weight: 600;
-      }
-      h1 {
-        font-size: 42px;
-        color: variables.$cor-primaria;
-        margin-bottom: 2rem;
-        font-family: variables.$ft-titulos;
-        span {
-          color: variables.$cor-secundaria;
-        }
-      }
-    }
-    .img-home {
-      max-width: 474px;
-      img {
-        width: 100%;
-      }
-    }
-  }
 }

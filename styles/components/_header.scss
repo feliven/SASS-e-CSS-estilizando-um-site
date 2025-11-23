@@ -21,9 +21,8 @@ header {
       }
       a {
         text-decoration: none;
-        color: variables.$cor-primaria;
+        @include mixins.font-family-size-color(variables.$ft-textos, 1rem, variables.$cor-primaria);
         font-weight: 500;
-        font-family: variables.$ft-textos;
       }
     }
   }

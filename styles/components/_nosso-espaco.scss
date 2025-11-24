@@ -1,3 +1,4 @@
+@use "../abstract/variables";
 @use "../abstract/mixins";
 
 #nosso-espaco {
@@ -8,11 +9,21 @@
     align-items: center;
     justify-content: space-around;
     gap: 2rem;
+    padding: 2rem 0;
+
     .imgs-espaco {
       max-width: 500px;
     }
     .espaco-textos {
       @extend .imgs-espaco;
+      .titulo {
+        @include mixins.font-family-size-color(variables.$ft-titulos, 1.8rem, variables.$cor-secundaria);
+        font-weight: 500;
+      }
+      .infos {
+        @include mixins.font-family-size-color(variables.$ft-textos, 1.2rem, variables.$cor-primaria);
+        font-weight: 500;
+      }
       .separador {
         width: 100%;
       }

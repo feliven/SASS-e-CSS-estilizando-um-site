@@ -6,6 +6,11 @@
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  padding: 0rem 0 4rem;
+
+  img {
+    max-width: 13%;
+  }
   h4 {
     @include mixins.font-family-size-color(variables.$ft-titulos, 1.6rem, variables.$cor-primaria);
   }
@@ -13,7 +18,7 @@
     @include mixins.font-family-size-color(variables.$ft-textos, 1.2rem, variables.$cor-primaria);
   }
   .input-btn {
-    $largura-input: 790px;
+    $largura-input: 40rem;
     width: $largura-input;
     height: 65px;
     border: 1px solid variables.$cor-secundaria;

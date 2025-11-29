@@ -23,6 +23,12 @@ header {
         text-decoration: none;
         @include mixins.font-family-size-color(variables.$ft-textos, 1rem, variables.$cor-primaria);
         font-weight: 500;
+
+        transition: all 0.1s ease-in;
+
+        &:hover {
+          font-weight: bold;
+        }
       }
     }
   }
